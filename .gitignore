@@ -1,0 +1,40 @@
+# ─────────────────────────────────────────────
+# 금융공자 정독 프로젝트 — .gitignore
+# 원칙: 재생성 가능한 것 / 대용량 바이너리는 추적하지 않는다.
+# ─────────────────────────────────────────────
+
+# ★페이지 이미지 (1,250MB / 9,222파일) — PDF에서 언제든 재변환 가능
+#   변환 스크립트 = _conv_*.py
+gongja_vision/
+
+# KRX 조회 캐시 (재조회 가능)
+_krx_cache.json
+_krx_90.json
+_krx_90v2.json
+_gspine_pagecache.json
+
+# 파이프라인 테스트 산출물
+_pipe_test/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 임시·로그
+*.log
+*.err
+_vision_tmp/
+_tmp_*
+_bulk2.*
+
+# 백업 사본 (노트 .bak_*)
+*.bak_*
+
+# OS
+Thumbs.db
+.DS_Store
+
+# 시크릿
+.env
+*.key
