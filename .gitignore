@@ -38,3 +38,6 @@ Thumbs.db
 # 시크릿
 .env
 *.key
+
+# 정독 프로젝트 (별도 저장소: gongja-study)
+book_extracts/
