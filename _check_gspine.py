@@ -31,6 +31,7 @@ NOTE_FILES = [
     (r'D:\StockAnalyst\book_extracts\학습노트\11_단타매매_정독.md', 1183),
     (r'D:\StockAnalyst\book_extracts\학습노트\12_수식관리자_정독.md', 4378),
     (r'D:\StockAnalyst\book_extracts\학습노트\13_스윙매매_정독.md', 4746),
+    (r'D:\StockAnalyst\book_extracts\학습노트\02f_재료매매_잔여_정독.md', 6103),
 ]
 
 ok = True
